@@ -3,7 +3,11 @@
     src: url('https://fonts.googleapis.com/css?family=Raleway')
     }
 
-
+@media screen and (max-width: 480px) {
+     background {
+         background-color: white;
+    }
+}
 
 /* Social Buttons */
 
