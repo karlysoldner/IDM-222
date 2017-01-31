@@ -2,6 +2,9 @@
     font-family: 'Raleway', sans-serif;
     src: url('https://fonts.googleapis.com/css?family=Raleway')
     }
+  html {
+  font-size: 100%;
+}
 /* Social Buttons */
 
 /* brandico */
@@ -87,7 +90,7 @@ li.social-button:hover {
 
 body {
    /* background-color: #453F3C; */
-    background-image: url("http://i4.istockimg.com/file_thumbview_approve/76821381/5/stock-photo-76821381-abstract-geometric-background-gray.jpg")
+    background-image: url("//i4.istockimg.com/file_thumbview_approve/76821381/5/stock-photo-76821381-abstract-geometric-background-gray.jpg")
 }
 
 h1 {
