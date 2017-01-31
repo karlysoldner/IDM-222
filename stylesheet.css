@@ -257,4 +257,10 @@ p.ex2 {
    margin-left: 0px
 }
 
+.project {
+  width: 400px;
+  display: inline-block;
+  
+}
+
 
