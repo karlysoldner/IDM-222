@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Raleway', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Raleway')
+    src: url('//fonts.googleapis.com/css?family=Raleway')
     }
 
 @media screen and (max-width: 480px) {
-     background {
-         background-color: white;
+     body {
+         background-image; none
     }
 }
 
