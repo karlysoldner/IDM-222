@@ -225,7 +225,9 @@ a:visited {
   color: #605854;
  }
 
-.wrapper {
+.wrapper,
+nav { width: 30%; }
+body {
   margin: 0 auto;
   max-width: 80rem; 
   padding-left : 2rem;
