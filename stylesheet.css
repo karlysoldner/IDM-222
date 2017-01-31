@@ -260,7 +260,7 @@ p.ex2 {
 .project {
   width: 400px;
   display: inline-block;
-  
+  margin: 2em;
 }
 
 
