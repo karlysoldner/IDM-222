@@ -5,6 +5,14 @@
   html {
   font-size: 100%;
 }
+/* I think the fonts are fine? when would i use this?*/
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: white;
+    }
+
+
 /* Social Buttons */
 
 /* brandico */
