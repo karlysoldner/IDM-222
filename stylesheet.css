@@ -3,9 +3,9 @@
     src: url('//fonts.googleapis.com/css?family=Raleway')
     }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 180px) {
      body {
-         background-image; none
+         background-image: none;
     }
 }
 
@@ -219,10 +219,10 @@ a:visited {
 
  nav {
   color: #605854;
+  display: inline-block;
  }
 
-.wrapper,
-nav { width: 30%; }
+.wrapper
 body {
   margin: 0 auto;
   max-width: 80rem; 
