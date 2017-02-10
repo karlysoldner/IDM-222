@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Dosis', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Rubik')
+    src: url('https://fonts.googleapis.com/css?family=Rubik:300')
     }
 
 img { max-width: 100%; }
@@ -36,6 +36,11 @@ body {
   [class*="col-"] {
     float: left;
   }
+}
+
+.title {
+  text-align: left;
+  display: block;
 }
 
 .nav {
