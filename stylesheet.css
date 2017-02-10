@@ -2,13 +2,13 @@
 
 @font-face {
     font-family: 'Dosis', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Dosis')
+    src: url('https://fonts.googleapis.com/css?family=Rubik')
     }
 
 img { max-width: 100%; }
 
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
 .row {
