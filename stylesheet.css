@@ -9,6 +9,8 @@ img { max-width: 100%; }
 
 body {
   font-family: 'Rubik', sans-serif;
+  background-color: #A3F7B5;
+  color: #30474C;
 }
 
 .row {
@@ -47,7 +49,7 @@ body {
   list-style: none;
   margin: 0;
 
-  background: deepskyblue;
+  background: #40C9A2;
 
   display: -webkit-box;
   display: -moz-box;
@@ -61,7 +63,7 @@ body {
 }
 
 .nav a {
-  color: white;
+  color: #E5F9E0;
   display: block;
   padding: 1em;
   text-align: center;
@@ -71,7 +73,7 @@ body {
 }
 
 .nav a:hover {
-  background: darkblue;
+  background: #2F9C95;
 }
 
 
