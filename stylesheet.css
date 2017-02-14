@@ -65,7 +65,9 @@ body {
   background: #2F9C95;
 }
 
-  .nav { 
+
+@media all and (min-width: 700px) {
+  .nav {
 
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
