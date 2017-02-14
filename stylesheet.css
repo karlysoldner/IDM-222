@@ -40,21 +40,10 @@ body {
   }
 }
 
-.title {
-  text-align: left;
-  display: block;
-}
-
 .nav {
   list-style: none;
-  margin: 0;
-
+  font-size: 1.2em;
   background: #40C9A2;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
   display: flex;
 
   -webkit-flex-flow: column wrap;
@@ -76,9 +65,8 @@ body {
   background: #2F9C95;
 }
 
+  .nav { 
 
-@media all and (min-width: 600px) {
-  .nav {
     -webkit-flex-flow: row wrap;
     flex-flow: row wrap;
 
@@ -90,11 +78,6 @@ body {
   }
 }
 
-@media all and (min-width: 800px) {
-  .nav {
-    justify-content: flex-end;
-  }
-}
 
 
 
