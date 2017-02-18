@@ -8,26 +8,12 @@
 img { max-width: 100%;
       justify-content: left; }
 
+html {font-size: 100%;}
+
 body {
   font-family: 'Rubik', sans-serif;
   background-color: #A3F7B5;
   color: #30474C;
-}
-
-h1 {
-  margin-left: .5em;
-}
-
-h2 {
-  margin-left: .5em;
-}
-
-h3 {
-  margin-left: .5em;
-}
-
-p {
-  margin-left: 1em;
 }
 
 .row {
@@ -43,6 +29,8 @@ p {
 [class*="col-"] {
   padding: 16px;
   width: 100%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 @media screen and (min-width: 600px) {
@@ -50,47 +38,57 @@ p {
   
   }
 
-  .col-6 {width: 50%;
+.col-6  
   [class*="col-"] {
+   width: 50%;
     float: left;
   }
 }
 
-.nav {
-  list-style: none;
-  font-size: 1.2em;
-  background: #40C9A2;
+body { background-color: #a3f7b5; }
+
+.wrapper {
+  margin: 2rem auto;
+  max-width: 56.25rem;
+}
+
+header {
+  background-color: #40c9a2;
+}
+
+header .flex-parent {
   display: flex;
-
-  -webkit-flex-flow: column wrap;
-  flex-flow: column wrap;
-  padding: 0;
+  flex-direction: column;
+  
+  @media screen and (min-width: 50rem) {
+    flex-direction: row;
+    justify-content: space-between; 
+  }
+  
 }
 
-.nav a {
-  color: #E5F9E0;
-  display: block;
-  padding: 1em;
-  text-align: center;
-  text-decoration: none;
-}
-
-.nav a:hover {
-  background: #2F9C95;
-}
-
-
-@media screen and (min-width: 600px) {
-  .nav {
-    flex-flow: row wrap;
-    justify-content: flex-end;
+header .flex-child 
+  nav {
+    ul {
+    list-style: none;
+      li {
+        list-style: none;
+       
+        @media screen and (min-width: 50rem) {
+          display: inline;
+        }
+        
+        // Style your anchor elements.
+        a {
+          display: block;
+          padding: 1rem;
+          
+          @media screen and (min-width: 50rem) {
+            display: inline-block;
+          }
+        }
+      }
+    }
   }
 }
-
-button {
-  display: flex;
-  flex-flow: center;
-  justify-content: center;
-}
-
 
