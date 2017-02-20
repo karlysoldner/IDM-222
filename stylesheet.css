@@ -69,6 +69,7 @@ header .flex-parent {
 
 header .flex-child 
   nav {
+    list-style: none;}
     ul {
     list-style: none;
       li {
