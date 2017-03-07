@@ -6,6 +6,7 @@
     }
 
 img { max-width: 100%;
+  width: auto;
       justify-content: left; }
 
 html {font-size: 100%;}
@@ -45,11 +46,19 @@ body {
   }
 }
 
-body { background-color: #a3f7b5; }
+a:hover { 
+  text-decoration: none; 
+  color: white;
+ 
+ }
 
+ a {
+  text-decoration: none; 
+  color: #A3F7B5;
+ }
 .wrapper {
   margin: 2rem auto;
-  max-width: 56.25rem;
+ /* max-width: 56.25rem; */
 }
 
 header {
@@ -59,37 +68,35 @@ header {
 header .flex-parent {
   display: flex;
   flex-direction: column;
-  
-  @media screen and (min-width: 50rem) {
+}
+
+@media screen and (min-width: 50rem) {
+  header .flex-parent {
     flex-direction: row;
-    justify-content: space-between; 
-  }
-  
-}
-
-header .flex-child 
-  nav {
-    list-style: none;}
-    ul {
-    list-style: none;
-      li {
-        list-style: none;
-       
-        @media screen and (min-width: 50rem) {
-          display: inline;
-        }
-        
-        // Style your anchor elements.
-        a {
-          display: block;
-          padding: 1rem;
-          
-          @media screen and (min-width: 50rem) {
-            display: inline-block;
-          }
-        }
-      }
-    }
+    justify-content: space-between;
   }
 }
 
+header .flex-child {
+ margin-left: 1.5rem;
+ margin-right: 1.5rem;
+}
+@media screen and (min-width: 50rem) {
+  header .flex-child nav ul li {
+    display: inline;
+    text-decoration: none;
+  }
+}
+header .flex-child nav ul li a {
+  display: block;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 50rem) {
+  header .flex-child nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+  }
+}
