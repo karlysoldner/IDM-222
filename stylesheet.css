@@ -23,6 +23,7 @@ body {
   overflow: auto;
   margin-bottom: 16px;
 }
+
 .row::after {
     content: "";
     clear: both;
@@ -30,8 +31,7 @@ body {
 }
 
 [class*="col-"] {
-  padding: 16px;
-  width: 100%;
+  width: 30%;
   display: flex;
   justify-content: flex-start;
 }
@@ -43,7 +43,7 @@ body {
 
 .col-6  
   [class*="col-"] {
-   width: 50%;
+   width: 100%;
     float: left;
   }
 }
