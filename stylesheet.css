@@ -31,11 +31,7 @@ body {
     display: block;
 }
 
-[class*="col-"] {
-  width: 50%;
-  display: flex;
-  justify-content: flex-start;
-}
+
 
 @media screen and (min-width: 600px) {
   [class*="col-"] {
