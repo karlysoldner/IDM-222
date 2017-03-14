@@ -21,6 +21,7 @@ body {
 
 .row {
   overflow: auto;
+  width: 100%
   margin-bottom: 16px;
 }
 
@@ -31,14 +32,14 @@ body {
 }
 
 [class*="col-"] {
-  width: 30%;
+  width: 50%;
   display: flex;
   justify-content: flex-start;
 }
 
 @media screen and (min-width: 600px) {
   [class*="col-"] {
-  
+  width: 100%
   }
 
 .col-6  
