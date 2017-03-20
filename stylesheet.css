@@ -6,7 +6,7 @@
     }
 
 img {  
-  display: block;
+  
   max-width: 100%;
     height: auto; 
     }
@@ -28,7 +28,7 @@ body {
 .row::after {
     content: "";
     clear: both;
-    display: block;
+   
 }
 
 [class*="col-"] {
@@ -37,7 +37,8 @@ body {
 
 @media screen and (min-width: 600px) {
   [class*="col-"] {
-  width: 48%
+  width: 45%;
+  display: inline-block;
   }
 
 }
