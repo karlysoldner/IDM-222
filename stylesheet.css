@@ -104,11 +104,7 @@ body {
   margin-bottom: 16px;
 }
 
-/*.row::after {
-    content: "";
-    clear: both;*/
-   
-}
+
 
 [class*="col-"] {
   width: 100%;
