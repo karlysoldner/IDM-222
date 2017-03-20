@@ -10,7 +10,7 @@
   src: url(http://weloveiconfonts.com/api/?family=brandico);
 }
 
-    * Social Buttons */
+    /* Social Buttons */
 
 /* brandico */
 [class*="brandico-"]:before {
@@ -81,20 +81,7 @@ li.social-button a.brandico-linkedin {
 li.social-button:hover {
     transform: translateY(-10px);
 }
-
-
-li.bullet {
-   font-family: Brandico, sans-serif;
-   color: #8d8d90;
-   margin-left: 30px;
-   line-height: 25px;
-   list-style-type: disc;
-    list-style-position: inside;
-    text-indent: -30px;
-    padding-left: 1em;
-}
-
-   /* end social */  
+   /* end social YOU DID IT WOO */  
 
 
 img {  
