@@ -5,6 +5,98 @@
     src: url('https://fonts.googleapis.com/css?family=Rubik:300')
     }
 
+@font-face {
+  font-family: 'brandico', sans-serif;
+  src: url(http://weloveiconfonts.com/api/?family=brandico);
+}
+
+    * Social Buttons */
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+li.social-button a.brandico-twitter-bird {
+  font-family: brandico;
+  background-color: #71D78A;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  margin: 21px;
+}
+
+li.social-button a.brandico-facebook {
+  font-family: brandico;
+  background-color:  #8AD770;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  margin: 21px;
+}
+
+li.social-button a.brandico-instagram {
+  font-family: brandico;
+  background-color: #70D7BD;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  margin: 21px;
+}
+
+
+li.social-button a.brandico-linkedin {
+  font-family: brandico;
+  background-color: #70BDD6;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  margin: 21px;
+}
+
+li.social-button:hover {
+    transform: translateY(-10px);
+}
+
+
+li.bullet {
+   font-family: Brandico, sans-serif;
+   color: #8d8d90;
+   margin-left: 30px;
+   line-height: 25px;
+   list-style-type: disc;
+    list-style-position: inside;
+    text-indent: -30px;
+    padding-left: 1em;
+}
+
+   /* end social */  
+
+
 img {  
   
   max-width: 100%;
