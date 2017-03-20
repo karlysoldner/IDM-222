@@ -25,9 +25,9 @@ body {
   margin-bottom: 16px;
 }
 
-.row::after {
+/*.row::after {
     content: "";
-    clear: both;
+    clear: both;*/
    
 }
 
@@ -39,6 +39,7 @@ body {
   [class*="col-"] {
   width: 45%;
   display: inline-block;
+  vertical-align: top;
   }
 
 }
@@ -84,17 +85,14 @@ header .flex-child {
 @media screen and (min-width: 50rem) {
   header .flex-child nav ul li {
     display: inline;
-    text-decoration: none;
   }
 }
 header .flex-child nav ul li a {
   display: block;
-  padding: 1rem;
   text-align: center;
   text-decoration: none;
    padding: .2rem;
-  
-
+   
 }
 
 @media screen and (min-width: 50rem) {
