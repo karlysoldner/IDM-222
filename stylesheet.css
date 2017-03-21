@@ -143,10 +143,6 @@ body {
 
 }
 
-a {
-  color: #A3F7B5;
-  /*something is weird here, they all display as active?*/
- }
 
 a:hover { 
  
