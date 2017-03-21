@@ -2,17 +2,20 @@
 
 @font-face {
     font-family: 'Dosis', sans-serif;
-    src: url('https://fonts.googleapis.com/css?family=Rubik:300')
+    src: url('//fonts.googleapis.com/css?family=Rubik:300')
     }
 
 @font-face {
   font-family: 'brandico', sans-serif;
-  src: url(http://weloveiconfonts.com/api/?family=brandico);
+  src: url(//weloveiconfonts.com/api/?family=brandico);
 }
 
 ul{
   list-style-type: none;
+  font
 }
+
+    /* pdf button */
 
 .MyButton {
             width: 200px;
@@ -128,7 +131,6 @@ body {
 }
 
 
-
 [class*="col-"] {
   width: 100%;
 }
@@ -156,8 +158,10 @@ a:hover {
  
 .wrapper {
   margin: 2rem auto;
- /* max-width: 56.25rem; */
+  max-width: 56.25rem; 
 }
+
+/*Menu Banner*/
 
 header {
   background-color: #40c9a2;
