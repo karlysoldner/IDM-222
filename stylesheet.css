@@ -10,6 +10,29 @@
   src: url(http://weloveiconfonts.com/api/?family=brandico);
 }
 
+ul{
+  list-style-type: none;
+}
+
+.MyButton {
+            width: 200px;
+            font-family: 'Dosis', sans-serif;
+            font-size: 100%;
+            padding: 10px;
+            cursor: pointer;
+            background: #A3F7B5;
+            color: #fff;
+            border: 1px solid white;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+.MyButton:hover {
+            color: #30474C;
+            background: #40c9a2;
+            border: 1px solid #fff;
+        }
+
     /* Social Buttons */
 
 /* brandico */
