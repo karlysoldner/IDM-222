@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: 'Rubik', sans-serif;
-    src: url('//fonts.googleapis.com/css?family=Rubik:300')
+    src: url('//fonts.googleapis.com/css?family=Rubik')
     }
-@font-face {
+   @font-face {
     font-family: 'Dosis', sans-serif;
     src: url('//fonts.googleapis.com/css?family=Dosis')
-    }    
+    } 
 
 @font-face {
   font-family: 'brandico', sans-serif;
@@ -22,12 +22,12 @@ ul{
 
 .MyButton {
             width: 200px;
-            font-family: 'Rubik', sans-serif;
+            font-family: 'Dosis', sans-serif;
             font-size: 100%;
             padding: 10px;
             cursor: pointer;
             background: #A3F7B5;
-            color: white;
+            color: #fff;
             border: 1px solid white;
             border-radius: 10px;
             text-decoration: none;
@@ -58,7 +58,7 @@ li.social-button a.brandico-twitter-bird {
   line-height: 40px;
   color: white;
   text-align: center;
-  margin: .5rem;
+  margin: 21px;
 }
 
 li.social-button a.brandico-facebook {
@@ -73,7 +73,7 @@ li.social-button a.brandico-facebook {
   line-height: 40px;
   color: white;
   text-align: center;
-  margin: .5rem;
+  margin: 21px;
 }
 
 li.social-button a.brandico-instagram {
@@ -88,7 +88,7 @@ li.social-button a.brandico-instagram {
   line-height: 40px;
   color: white;
   text-align: center;
-  margin: .5rem;
+  margin: 21px;
 }
 
 
@@ -104,7 +104,7 @@ li.social-button a.brandico-linkedin {
   line-height: 40px;
   color: white;
   text-align: center;
-  margin: .5rem;
+  margin: 21px;
 }
 
 li.social-button:hover {
@@ -147,14 +147,9 @@ body {
 
 }
 
-a {
-
-  color:#A3F7B5 ;
-}
-
 a:visited {
 
-  color: #30474C;
+  color:#A3F7B5 ;
 }
 
 a:hover { 
